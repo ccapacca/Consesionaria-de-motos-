@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionaria de Motos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="catalogo_de_motos.html">Catálogo de Motos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="auth-links">
+                <a href="registrar.html">Registrar</a>
+                <a href="iniciar_sesion.html">Iniciar Sesión</a>
+            </div>
+        </nav>
+        <div class="main-title">
+            <h1>La moto que buscas, la tenemos</h1>
+            <p>Conócela, cómprala o finánciala aquí</p>
+            <div class="icons">
+                <p>☑ Fácil y rápido &nbsp;&nbsp;&nbsp; ☑ 100% Gratuito &nbsp;&nbsp;&nbsp; ☑ Imparcial e Independiente</p>
+            </div>
+        </div>
+        <div class="search-section">
+            <input type="text" placeholder="Escribe modelo, marca o tipo de moto">
+        </div>
+        <div class="buttons-section">
+            <button>Servicio Especializado</button>
+            <button>Catálogo Completo</button>
+        </div>
+    </header>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Iniciar Sesión</h2>
+            <p>A un paso de encontrar tu moto ideal.</p>
+            <form>
+                <button class="admin-btn">Iniciar sesión Admin</button>
+                <button class="employee-btn">Iniciar sesión Empleado</button>
+                <input type="text" placeholder="Usuario o email" required>
+                <input type="password" placeholder="Contraseña" required>
+                <div class="checkbox">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Recordarme</label>
+                </div>
+                <button type="submit" class="login-btn">Iniciar sesión</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="map-section">
+        <h3>Encuéntranos</h3>
+        <p>Nuestras sucursal esta ubicada </p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124830.98959301529!2d-77.1517467498779!3d-12.114312972922555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7e583a27a07%3A0x4d76922cfa7c5551!2sPEMCORP%20MOTOS%20-%20(MULTIMARCA)!5e0!3m2!1ses!2spe!4v1730686427498!5m2!1ses!2spe"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </section>
+
+
+    <footer class="footer">
+        <a href="#">Catálogo de Motos</a>
+        <a href="#">Servicios</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+        <div class="social-icons">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="iniciar_secion.js"></script>
+</body>
+</html>
